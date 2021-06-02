@@ -43,7 +43,9 @@ def deleteRowByName(tablename, name):
 # Table for insert
 table_name = 'sword'
 # New rows data
-records_to_delete = 'Test weapon'
+#records_to_delete = 'Test weapon'
+print('Enter the name for delete:')
+records_to_delete = input()
 
 # Calling function for insert
 deleteRowByName(table_name, records_to_delete)
